@@ -1,0 +1,92 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NAVBAR */
+.navbar_menu {
+  display: block;
+  text-decoration: none;
+  transition: 250ms all;
+}
+
+.navbar_menu:hover {
+  font-weight: bold;
+}
+
+/* BANNER */
+.carousel-inner > .carousel-item > img {
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner > .carousel-item > img {
+    height: auto;
+  }
+}
+
+.carousel-control-next:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+/* ARROW (MENU PREV) */
+.bi-arrow-right,
+.bi-arrow-left {
+  transition: 300ms all;
+}
+
+.bi-arrow-right:hover,
+.bi-arrow-left:hover {
+  transform: scale(1.5);
+}
+
+/* MENU PREV */
+.category__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.category__img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* FOOTER */
+#footer {
+  background-image: linear-gradient(transparent, rgb(255, 166, 0));
+}
+
+/* BANNER PROMO */
+#banner_promo {
+  background-image: linear-gradient(rgb(255, 217, 47), rgb(255, 121, 121));
+}
+
+#promo_desc {
+  font-size: 12px;
+}
+
+/* CAT MENU PARA */
+@media screen and (max-width: 768px) {
+  #paragraph {
+    display: none;
+  }
+}
+
+/* CART */
+#buy_button {
+  background-color: rgb(162, 103, 0) !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunch.</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- BOOTSTRAP -->
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- JQUERY -->
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/client_style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS -->
+
+    <!-- SCRIPT -->
+    <script>
+      $(function () {
+        $(".navbarPlaceholder").load("./components/navbar.html");
+      });
+      $(function () {
+        $(".footerTemplate").load("./components/footer.html");
+      });
+    </script>
+    <!-- SCRIPT -->
+  </head>
+  <body>
+    <div class="navbarPlaceholder"></div>
+
+    <!-- PROMO PAGE -->
+    <div data-aos="fade-up" data-aos-duration="2000">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mt-3 fw-bold fs-4 text-center">Beli Sekarang</div>
+        </div>
+        <div class="row">
+          <div class="col fw-bold fs-2 mb-3 text-center">Nikmati Promonya!</div>
+        </div>
+      </div>
+
+      <!-- BANNER PROMO -->
+      <div id="banner_promo" class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/images/promo1.png" class="img-fluid" />
+          </div>
+          <div class="col-md-6 fw-semibold my-lg-auto">
+            <h1 class="fs-1 fw-bolder">Promo Bulan Ini!</h1>
+            <p class="fs-4">
+              Beli "Complete Beef Burger" dan dapatkan "Lemonade Ice Tea"
+              gratis!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BANNER PROMO -->
+    <!-- PROMO PAGE -->
+
+    <!-- FOOTER -->
+    <div class="footerTemplate"></div>
+    <!-- FOOTER -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

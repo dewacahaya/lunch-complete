@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Krona One, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* LOGIN PAGE */
+#login-page{
+    background-image: url("https://images.unsplash.com/photo-1495753379358-73c76ccd644b?q=80&w=1878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+#login-page{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-page h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.box-login {
+        width: 350px;
+        margin: 0 auto;
+        padding: 50px;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        background: #fff;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.19);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+.box-login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.btn-24 {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-24:hover {
+    background-color: #218838;
+}
+/* LOGIN PAGE */
+
+/* DASHBOARD */
+header {
+    background-color: #ffaa00;
+    color: #fff;
+    padding: 20px 0 20px 30px;
+}
+
+header a {
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+    margin: 50px;
+}
+
+header a::before{
+    content: "Lunch. ";
+    color: red;
+}
+
+.h-calc {
+    height: calc(100vh - 88px);
+}
+
+.side_menu {
+    transition: all ease 200ms;
+}
+
+.side_menu:hover {
+    padding: 8px 14px;
+    border-radius: 50px;
+    background-color: #fa0000;
+}
+/* DASHBOARD */
+
+/* CATEGORY */
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* CATEGORY */
